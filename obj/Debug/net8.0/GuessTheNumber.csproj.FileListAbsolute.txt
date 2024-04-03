@@ -1,0 +1,14 @@
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\bin\Debug\net8.0\GuessTheNumber.exe
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\bin\Debug\net8.0\GuessTheNumber.deps.json
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\bin\Debug\net8.0\GuessTheNumber.runtimeconfig.json
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\bin\Debug\net8.0\GuessTheNumber.dll
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\bin\Debug\net8.0\GuessTheNumber.pdb
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\GuessTheNumber.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\GuessTheNumber.AssemblyInfoInputs.cache
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\GuessTheNumber.AssemblyInfo.cs
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\GuessTheNumber.csproj.CoreCompileInputs.cache
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\GuessTheNumber.dll
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\refint\GuessTheNumber.dll
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\GuessTheNumber.pdb
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\GuessTheNumber.genruntimeconfig.cache
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\ref\GuessTheNumber.dll
