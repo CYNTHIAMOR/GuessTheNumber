@@ -12,3 +12,4 @@ C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\refint\Gues
 C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\GuessTheNumber.pdb
 C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\GuessTheNumber.genruntimeconfig.cache
 C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\ref\GuessTheNumber.dll
+C:\Users\USUARIO\OneDrive\Escritorio\GuessTheNumber\obj\Debug\net8.0\GuessTheNumber.sourcelink.json
