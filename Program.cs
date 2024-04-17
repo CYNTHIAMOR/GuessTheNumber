@@ -1,8 +1,7 @@
 ﻿using System;
 
-namespace GuessTheNumber
-{
-    public class Program
+namespace GuessTheNumber{
+   public class Program
     {
         public static void Main(string[] args)
         {

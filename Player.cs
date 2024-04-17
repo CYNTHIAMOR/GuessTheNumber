@@ -15,24 +15,14 @@ namespace GuessTheNumber
         }
 
         public abstract void MakeGuess();
-    }
 
-    // Clase AIPlayer que hereda de Player
-    public class AIPlayer : Player
-    {
-        private readonly Random _random = new Random();
-
-        public AIPlayer() : base("IA") { }
-
-        public override void MakeGuess()
+        internal int GetLastGuess()
         {
-            int guess = _random.Next(1, 101);
-            Guesses.Add(guess);
-            Console.WriteLine($"🤖 IA ha adivinado: {guess}");
+            throw new NotImplementedException();
         }
     }
-}
 
+}
 /*using System;
 
 namespace GuessTheNumber
