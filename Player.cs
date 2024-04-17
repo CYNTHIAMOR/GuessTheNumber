@@ -1,22 +1,34 @@
+using System;
+using System.Collections.Generic;
+
 namespace GuessTheNumber
 {
+    // Clase abstracta Player
     public abstract class Player
     {
         public string Name { get; }
-        protected int LastGuess { get; set; }
-        public List<int> Predictions { get; } = new List<int>();
+        public List<int> Guesses { get; } = new List<int>();
 
         protected Player(string name)
         {
             Name = name;
-            LastGuess = -1; // Inicializar con un valor que no sea válido
         }
 
         public abstract void MakeGuess();
+    }
 
-       public int GetLastGuess()
+    // Clase AIPlayer que hereda de Player
+    public class AIPlayer : Player
+    {
+        private readonly Random _random = new Random();
+
+        public AIPlayer() : base("IA") { }
+
+        public override void MakeGuess()
         {
-            return LastGuess;
+            int guess = _random.Next(1, 101);
+            Guesses.Add(guess);
+            Console.WriteLine($"🤖 IA ha adivinado: {guess}");
         }
     }
 }
