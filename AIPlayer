@@ -1,0 +1,16 @@
+using System;
+
+namespace GuessTheNumber{
+public class AIPlayer : Player
+    {
+        private readonly Random _random = new Random();
+
+        public AIPlayer(string name) : base(name) { }
+
+        public override void MakeGuess()
+        {
+            LastGuess = _random.Next(1, 101); // Generar un número aleatorio entre 1 y 100
+            Predictions.Add(LastGuess);
+        }
+    }
+}

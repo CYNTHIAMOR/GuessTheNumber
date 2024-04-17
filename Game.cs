@@ -1,20 +1,23 @@
-using System;
+namespace GuessTheNumber{
+    // Clase Game
 
-namespace GuessTheNumber
-{
-    public class Game
+     public class Game
     {
-        private int _secretNumber;
-        
+        private readonly int _secretNumber;
+        private readonly Player _humanPlayer;
+        private readonly Player _AIPlayer;
+
         public Game()
         {
             Random random = new Random();
             _secretNumber = random.Next(1, 101); // Generar un número aleatorio entre 1 y 100
+            _humanPlayer = new HumanPlayer("Jugador Humano");
+            _AIPlayer = new AIPlayer("Jugador AI");
         }
 
-        public void InitializeGame(Player player)
+        public void InitializeGame()
         {
-            PlayGame(player);
+            PlayGame(_humanPlayer);
         }
 
         private void PlayGame(Player player)
@@ -26,14 +29,16 @@ namespace GuessTheNumber
                 attempts++;
                 player.MakeGuess();
 
-                if (player.GetLastGuess() == _secretNumber)
+                int lastGuess = player.GetLastGuess(); // Acceder al último intento del jugador
+
+                if (lastGuess == _secretNumber)
                 {
                     Console.ForegroundColor = ConsoleColor.Magenta;
-                    Console.WriteLine($"\n🎉 ¡Felicidades, {player.Name}, has adivinado el número en {attempts} intentos! 🎉");
+                    Console.WriteLine($"\n🎉 ¡Felicidades, {player.Name}, has adivinado el número en {attempts} intentos! 🎉🎉🎉");
                     Console.ResetColor();
                     break;
                 }
-                else if (player.GetLastGuess() < _secretNumber)
+                else if (lastGuess < _secretNumber)
                 {
                     Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("El número secreto es mayor.");
@@ -46,6 +51,18 @@ namespace GuessTheNumber
                     Console.ResetColor();
                 }
             }
+        }
+    }
+
+    internal class AIPlayer : Player
+    {
+        public AIPlayer(string name) : base(name)
+        {
+        }
+
+        public override void MakeGuess()
+        {
+            throw new NotImplementedException();
         }
     }
 }
