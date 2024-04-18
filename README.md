@@ -1,5 +1,4 @@
 # C# 💻
-
 ## 1. Preámbulo
 
 En el corazón de la programación moderna, C# se erige como un pilar fundamental,
