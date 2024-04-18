@@ -13,8 +13,7 @@ namespace GuessTheNumber
         {
             int guess = _random.Next(1, 101);
             Guesses.Add(guess);
-            Console.WriteLine($"🤖 IA ha adivinado: {guess}");
+            Console.WriteLine($"🤖 IA propuso 🤖: {guess}");
         }
     }
-
 }
