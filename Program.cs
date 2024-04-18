@@ -15,7 +15,7 @@ namespace GuessTheNumber{
             Game game = new Game();
             game.InitializeGame();
 
-            Console.WriteLine("\nGracias por jugar. ¡Hasta la próxima!");
+            Console.WriteLine($"\nGracias por jugar {humanName},¡Hasta la próxima!");
         }
     }
 }

@@ -11,7 +11,7 @@ public class Game
         {
             Random random = new Random();
             _secretNumber = random.Next(1, 101); // Generar un número aleatorio entre 1 y 100
-            _humanPlayer = new HumanPlayer("Jugador Humano");
+            _humanPlayer = new HumanPlayer("Genial");
             _aiPlayer = new AIPlayer();
         }
 
